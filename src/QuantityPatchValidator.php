@@ -10,7 +10,7 @@ final class QuantityPatchValidator
 {
     public function parseRequiredQuantity(string $quantity): int
     {
-        if (empty($quantity)) {
+        if ($quantity === '') {
             throw new DomainException('quantity is required');
         }
 
