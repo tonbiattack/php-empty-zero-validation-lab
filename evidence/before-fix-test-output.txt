@@ -1,0 +1,5 @@
+PASS: 空文字の数量は必須入力エラーになる
+FAIL: 文字列の0は数量ゼロとして受け付けられる
+quantity is required
+PASS: 数字以外の値は数量として受け付けられない
+1 test(s) failed.
